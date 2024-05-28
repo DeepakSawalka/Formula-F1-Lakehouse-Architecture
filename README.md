@@ -19,7 +19,7 @@ Below is a detailed Architecture Diagram illustrating the comprehensive setup an
 The ER diagram for the dataset is shown below:
 
 <p align="center">
-<img src="Architecture_Diagram.png" />
+<img src="ER diagram.png" />
 </p>
 
 ## Data Flow
