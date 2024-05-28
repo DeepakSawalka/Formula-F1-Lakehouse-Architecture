@@ -73,7 +73,7 @@ Processed and aggregated data is connected to Power BI for visualization, enabli
 Below is the visualization of the project:
 
 <p align="center">
-<img src="Architecture_Diagram.png" />
+<img src="F1_Dashboard.png" />
 </p>
 
 ### 6. Automation
@@ -115,7 +115,5 @@ Azure Monitor collects and analyzes telemetry from Azure resources, proactively 
 ### 12. Cost Management
 
 Microsoft Cost Management provides financial governance services, optimizing Azure workload costs.
-
-
 
 <p align="right">(<a href="#readme-top">Back to Top</a>)</p>
