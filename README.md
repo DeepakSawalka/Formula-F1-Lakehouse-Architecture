@@ -29,6 +29,7 @@ The ER diagram for the dataset is shown below:
 I ingest data from the Ergast API, which is then stored in the raw (Bronze layer) container within Azure Data Lake Storage Gen 2(ADLS). The data ingestion includes both full loads and incremental loads:
 
 - **Full Load Data:**
+
     1. Circuits (CSV)
     2. Races (CSV)
     3. Constructors (JSON)
@@ -37,6 +38,7 @@ I ingest data from the Ergast API, which is then stored in the raw (Bronze layer
     These datasets are static and do not change frequently.
 
 - **Incremental Load Data:**
+
     5. Results (JSON)
     6. Pitstops (JSON)
     7. Lap Times (Split CSV Files)
