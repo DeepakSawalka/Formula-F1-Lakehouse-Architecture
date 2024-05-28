@@ -4,7 +4,7 @@
 Welcome to the Formula1 Racing Data Engineering project repository! This project encapsulates a robust solution architecture leveraging cutting-edge data engineering technologies to process, analyze, and present Formula 1 racing data.
 
 ## Project Overview
-This project aims to design and implement a robust data engineering solution leveraging the **Medallion Architecture** and an automated data pipeline. The objective is to seamlessly process raw Formula 1 racing data, transforming it into actionable insights for analysis and presentation. Our solution integrates multiple Azure services such as Azure Databricks, Spark Core, Azure Data Lake Gen2, Delta Lake, Azure Data Factory, Unity Catalog, and Power BI to ensure scalability, reliability, and performance.
+This project aims to design and implement a robust data engineering solution leveraging the **Medallion Architecture** and an **end-to-end automated ETL data pipeline**. The objective is to seamlessly process raw Formula 1 racing data, transforming it into actionable insights for analysis and presentation. Our solution integrates multiple Azure services such as Azure Databricks, Spark Core, Azure Data Lake Gen2, Delta Lake, Azure Data Factory, Unity Catalog, and Power BI to ensure scalability, reliability, and performance.
 
 ## Solution Architecture
 
