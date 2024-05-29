@@ -26,7 +26,7 @@ The ER diagram for the dataset is shown below:
 
 ### 1. Data Ingestion
 
-I ingest data from the Ergast API, which is then stored in the raw (Bronze layer) container within Azure Data Lake Storage Gen 2(ADLS). The data ingestion includes both full loads and incremental loads:
+Ingested data from the Ergast API, which is then stored in the raw (Bronze layer) container within Azure Data Lake Storage Gen 2(ADLS). The data ingestion includes both full loads and incremental loads:
 
 - **Full Load Data:**
 
@@ -48,14 +48,14 @@ I ingest data from the Ergast API, which is then stored in the raw (Bronze layer
 
 ### 2. Data Processing
 
-Using Azure Databricks and Spark Core with PySpark and Spark SQL, I process the ingested data. The processed data is then moved to the Silver layer in Delta Lake. This step includes:
+Using Azure Databricks and Spark Core with PySpark and Spark SQL, process the ingested data. The processed data is then moved to the Silver layer in **Delta Lake**. This step includes:
 
     1. Data cleaning and transformation.
     2. Ensuring data quality and consistency.
 
 ### 3. Data Aggregation
 
-In the Silver layer, I perform further data aggregation, including:
+In the Silver layer, performed further data aggregation, including:
 
     1. GroupBy operations
     2. Window functions
@@ -64,7 +64,7 @@ The aggregated data is then moved to the Gold layer for business purposes and ad
 
 ### 4. Data Warehousing 
 
-I utilize **Databricks SQL** to bring data warehousing capabilities and enhance performance. This allowed me to run complex queries and perform data analysis directly on our delta lake.
+Utilized **Databricks SQL** to bring data warehousing capabilities and enhance performance. This allowed me to run complex queries and perform data analysis directly on our delta lake.
 
 ### 5. Data Visualization
 
@@ -85,7 +85,7 @@ Azure Data Factory orchestrates the data pipeline by:
 
 ### 7. Data Governance
 
-I employed **Unity Catalog** for comprehensive data governance, including:
+Employed **Unity Catalog** for comprehensive data governance, including:
 
     1. Data Discovery
     2. Data Audit
@@ -94,7 +94,7 @@ I employed **Unity Catalog** for comprehensive data governance, including:
 
 ### 8. Version Control
 
-I used Azure DevOps for leveraging version control capabilities.
+Used Azure DevOps for leveraging version control capabilities.
 
 ### 9. Security and Compliance
 
