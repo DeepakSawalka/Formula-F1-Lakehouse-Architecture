@@ -11,7 +11,7 @@ This project aims to design and implement a robust data engineering solution lev
 Below is a detailed Architecture Diagram illustrating the comprehensive setup and flow of the project:
 
 <p align="center">
-<img src="Architecture_Diagram.png" />
+<img src="architecture.png" />
 </p>
 
 ## Entity-Relationship (ER) diagram
